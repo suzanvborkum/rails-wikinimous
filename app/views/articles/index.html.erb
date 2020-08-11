@@ -1,0 +1,15 @@
+<div class="container">
+
+  <h1>Articles on scientists and marketing</h1>
+
+  <ul class="article-list">
+    <% @articles.each do |article| %>
+      <li>
+        <%= link_to article.title, article_path(article.id), class:'article-title' %>
+        <br>
+        <%= article.content %>
+      </li>
+    <% end %>
+  </ul>
+
+</div>

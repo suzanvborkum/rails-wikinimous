@@ -1,0 +1,35 @@
+ul {
+  list-style-type: none;
+  margin: 40px;
+}
+
+.article-title {
+  font-size:28px;
+  color: #158497;
+}
+
+.article-title:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+.string .optional {
+  color: grey;
+  font-weight: bold;
+}
+
+.text .optional {
+  color: grey;
+  font-weight: bold;
+}
+
+.show-title {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 20px;
+}
+

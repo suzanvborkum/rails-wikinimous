@@ -1,0 +1,39 @@
+@import "bootstrap/scss/bootstrap";
+@import "/articles";
+
+nav {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  background-color: lightgray;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.logo {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.logo:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.new-article {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.new-article:hover {
+  text-decoration: none;
+  color: black;
+}
